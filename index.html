@@ -181,8 +181,8 @@
       <canvas id="game" aria-label="Trancón, juego de conducción en Bogotá creado por Lucas Leguizamo"></canvas>
       <section id="hud" aria-live="polite">
         <div class="brand"><span class="brand-dot"></span><span>TRANCÓN</span><small>BOGOTÁ D.C.</small></div>
-        <div class="stats"><div><small>VIDAS</small><strong id="lives">♥ ♥ ♥</strong><div class="health"><i></i></div></div><div><small>SCORE</small><strong id="score">000000</strong></div><div><small>VELOCIDAD</small><strong id="speed">0 km/h</strong></div><div><small>FOTOMULTAS</small><strong id="fines">$0</strong></div><div><small>ESTRELLAS</small><strong id="stars">☆☆☆☆☆</strong></div></div>
-        <div class="objective"><small>RUMBO</small><strong>Casa de Nariño · Cra 8</strong><span id="signal">SEMÁFORO: VERDE</span><span id="ability">ESPACIO · HABILIDAD</span></div>
+        <div class="stats"><div><small>VIDAS</small><strong id="lives">♥ ♥ ♥</strong><div class="health"><i></i></div></div><div><small>SCORE</small><strong id="score">000000</strong></div><div><small>TIEMPO</small><strong id="clock">00:00</strong></div><div><small>VELOCIDAD</small><strong id="speed">0 km/h</strong></div><div><small>FOTOMULTAS</small><strong id="fines">$0</strong></div><div><small>ESTRELLAS</small><strong id="stars">☆☆☆☆☆</strong></div></div>
+        <div class="objective"><small>OBJETIVO</small><strong>Sobrevive · el reloj suma</strong><span id="signal">SEMÁFORO: VERDE</span><span id="ability">ESPACIO · HABILIDAD</span></div>
       </section>
       <a
         id="credit"
@@ -197,7 +197,7 @@
         <p class="eyebrow">CASA DE NARIÑO · CARRERA 8 #7-26</p>
         <h1>MANEJA HASTA<br><em>QUEDAR EN CHATARRA.</em></h1>
         <p class="byline">Un juego de <a href="https://lucasleguizamo.com" rel="author me">Lucas Leguizamo</a></p>
-        <p>Centro real: calzada OSM, estaciones de TransMilenio y ciclorrutas. Cada 10 s, FIRMES PARA LA PATRIA.</p>
+        <p>El score corre con el reloj. Aguanta el trancón: Casa de Nariño, TransMilenio y fotomultas. Cada 10 s, FIRMES PARA LA PATRIA.</p>
         <div class="skins" role="group" aria-label="Escoge un vehículo"><button class="skin selected" data-skin="taxi"><i></i><span>TAXISTA<small>amarillo clásico</small></span></button><button class="skin" data-skin="uber"><i></i><span>UBER<small>negro nocturno</small></span></button><button class="skin" data-skin="tombo"><i></i><span>TOMBO<small>verde y blanco</small></span></button><button class="skin" data-skin="sitp"><i></i><span>SITP<small>azul de ciudad</small></span></button><button class="skin" data-skin="rbr"><i></i><span>RBR<small>verde · radio activa</small></span></button><button class="skin" data-skin="presidential"><i></i><span>TIGRE PRESIDENCIAL<small>escolta x2</small></span></button></div>
         <div class="keys"><b>W</b><b>A</b><b>S</b><b>D</b><span>o flechas para conducir · <b>ESPACIO</b> poder</span></div>
         <button id="start">ARRANCAR EL MOTOR <span>↗</span></button>
@@ -206,7 +206,7 @@
       <section id="dead" class="panel hidden">
         <p class="eyebrow">FIN DEL RECORRIDO</p>
         <h1>QUEDASTE<br><em>EN CHATARRA.</em></h1>
-        <p>Score final: <strong id="final-score">0</strong></p>
+        <p>Score final: <strong id="final-score">0</strong> · <span id="final-time">00:00</span> en el trancón</p>
         <p class="byline">Un juego de <a href="https://lucasleguizamo.com" rel="author me">Lucas Leguizamo</a></p>
         <button id="restart">VOLVER AL TRANCÓN <span>↻</span></button>
       </section>
