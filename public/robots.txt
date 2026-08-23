@@ -1,0 +1,26 @@
+# Trancón — https://trancon.vercel.app
+# Creador: Lucas Leguizamo — https://lucasleguizamo.com
+# CSS y JS deben rastrearse. Sin Disallow sobre /assets/.
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: *
+Allow: /
+
+Sitemap: https://trancon.vercel.app/sitemap.xml

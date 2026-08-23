@@ -1,24 +1,231 @@
 <!doctype html>
-<html lang="es">
+<html lang="es-CO">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trancón — Bogotá sin frenos · Lucas Leguizamo</title>
+    <meta
+      name="description"
+      content="Juego de Lucas Leguizamo: conduce por el centro real de Bogotá, Casa de Nariño, TransMilenio y fotomultas. Gratis, en el navegador."
+    />
+    <meta name="author" content="Lucas Leguizamo" />
+    <meta name="creator" content="Lucas Leguizamo" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta name="format-detection" content="telephone=no" />
     <meta name="theme-color" content="#10171b" />
-    <title>Trancón — Bogotá sin frenos</title>
+    <meta name="color-scheme" content="dark" />
+    <meta name="application-name" content="Trancón" />
+    <meta name="apple-mobile-web-app-title" content="Trancón" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <link rel="canonical" href="https://trancon.vercel.app/" />
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="https://trancon.vercel.app/sitemap.xml" />
+    <link rel="author" href="https://lucasleguizamo.com" />
+    <link rel="me" href="https://lucasleguizamo.com" />
+    <link rel="license" href="https://opensource.org/licenses/MIT" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Trancón" />
+    <meta property="og:locale" content="es_CO" />
+    <meta property="og:title" content="Trancón — Bogotá sin frenos" />
+    <meta
+      property="og:description"
+      content="Un juego de Lucas Leguizamo. Sales de la Casa de Nariño y manejas el centro real de Bogotá hasta quedar en chatarra."
+    />
+    <meta property="og:url" content="https://trancon.vercel.app/" />
+    <meta property="og:image" content="https://trancon.vercel.app/og.jpg" />
+    <meta property="og:image:secure_url" content="https://trancon.vercel.app/og.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="Trancón, de Lucas Leguizamo: taxi amarillo y TransMilenio en Bogotá."
+    />
+    <meta property="article:author" content="https://lucasleguizamo.com" />
+    <meta property="profile:first_name" content="Lucas" />
+    <meta property="profile:last_name" content="Leguizamo" />
+    <meta property="profile:username" content="lucasleguizamo" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Trancón — Bogotá sin frenos" />
+    <meta
+      name="twitter:description"
+      content="Juego de Lucas Leguizamo. Centro real de Bogotá, TransMilenio y fotomultas. Gratis en el navegador."
+    />
+    <meta name="twitter:image" content="https://trancon.vercel.app/og.jpg" />
+    <meta
+      name="twitter:image:alt"
+      content="Trancón, de Lucas Leguizamo: taxi amarillo y TransMilenio en Bogotá."
+    />
+    <meta name="twitter:label1" content="Creador" />
+    <meta name="twitter:data1" content="Lucas Leguizamo" />
+    <meta name="twitter:label2" content="Sitio" />
+    <meta name="twitter:data2" content="lucasleguizamo.com" />
+
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="./favicon-32x32.png" type="image/png" sizes="32x32" />
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png" sizes="180x180" />
+    <link rel="manifest" href="./site.webmanifest" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://lucasleguizamo.com/#person",
+            "name": "Lucas Leguizamo",
+            "url": "https://lucasleguizamo.com",
+            "jobTitle": "Creador de Trancón",
+            "sameAs": [
+              "https://lucasleguizamo.com",
+              "https://github.com/LucasLeguizamo"
+            ]
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://lucasleguizamo.com/#organization",
+            "name": "Lucas Leguizamo",
+            "url": "https://lucasleguizamo.com",
+            "founder": { "@id": "https://lucasleguizamo.com/#person" },
+            "sameAs": [
+              "https://lucasleguizamo.com",
+              "https://github.com/LucasLeguizamo"
+            ]
+          },
+          {
+            "@type": "ImageObject",
+            "@id": "https://trancon.vercel.app/og.jpg",
+            "url": "https://trancon.vercel.app/og.jpg",
+            "contentUrl": "https://trancon.vercel.app/og.jpg",
+            "width": 1200,
+            "height": 630,
+            "encodingFormat": "image/jpeg",
+            "caption": "Trancón, de Lucas Leguizamo: taxi amarillo y TransMilenio en el centro de Bogotá",
+            "creator": { "@id": "https://lucasleguizamo.com/#person" },
+            "copyrightHolder": { "@id": "https://lucasleguizamo.com/#person" },
+            "creditText": "Lucas Leguizamo",
+            "acquireLicensePage": "https://lucasleguizamo.com"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://trancon.vercel.app/#website",
+            "name": "Trancón",
+            "alternateName": "Trancón — Bogotá sin frenos",
+            "url": "https://trancon.vercel.app/",
+            "inLanguage": "es-CO",
+            "creator": { "@id": "https://lucasleguizamo.com/#person" },
+            "author": { "@id": "https://lucasleguizamo.com/#person" },
+            "publisher": { "@id": "https://lucasleguizamo.com/#organization" },
+            "image": { "@id": "https://trancon.vercel.app/og.jpg" }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://trancon.vercel.app/",
+            "url": "https://trancon.vercel.app/",
+            "name": "Trancón — Bogotá sin frenos",
+            "description": "Juego de Lucas Leguizamo: conduce por el centro real de Bogotá hasta quedar en chatarra.",
+            "inLanguage": "es-CO",
+            "isPartOf": { "@id": "https://trancon.vercel.app/#website" },
+            "primaryImageOfPage": { "@id": "https://trancon.vercel.app/og.jpg" },
+            "mainEntity": { "@id": "https://trancon.vercel.app/#game" },
+            "author": { "@id": "https://lucasleguizamo.com/#person" },
+            "creator": { "@id": "https://lucasleguizamo.com/#person" },
+            "publisher": { "@id": "https://lucasleguizamo.com/#organization" },
+            "copyrightHolder": { "@id": "https://lucasleguizamo.com/#person" },
+            "datePublished": "2026-08-23",
+            "dateModified": "2026-08-23",
+            "relatedLink": "https://lucasleguizamo.com"
+          },
+          {
+            "@type": ["VideoGame", "WebApplication", "SoftwareApplication"],
+            "@id": "https://trancon.vercel.app/#game",
+            "name": "Trancón",
+            "alternateName": "Trancón — Bogotá sin frenos",
+            "url": "https://trancon.vercel.app/",
+            "description": "Juego web de conducción cenital en el centro real de Bogotá, creado por Lucas Leguizamo. Sales de la Casa de Nariño sobre calzada, TransMilenio y ciclorrutas horneadas de OpenStreetMap.",
+            "inLanguage": "es-CO",
+            "applicationCategory": "Game",
+            "applicationSubCategory": "Driving",
+            "operatingSystem": "Any",
+            "browserRequirements": "Requires an HTML5 browser with Canvas 2D support",
+            "isAccessibleForFree": true,
+            "genre": ["Driving", "Arcade"],
+            "playMode": "https://schema.org/SinglePlayer",
+            "gamePlatform": "Web Browser",
+            "image": { "@id": "https://trancon.vercel.app/og.jpg" },
+            "author": { "@id": "https://lucasleguizamo.com/#person" },
+            "creator": { "@id": "https://lucasleguizamo.com/#person" },
+            "copyrightHolder": { "@id": "https://lucasleguizamo.com/#person" },
+            "publisher": { "@id": "https://lucasleguizamo.com/#organization" },
+            "copyrightYear": 2026,
+            "sameAs": ["https://github.com/LucasLeguizamo/trancon"],
+            "offers": {
+              "@type": "Offer",
+              "url": "https://trancon.vercel.app/",
+              "price": "0",
+              "priceCurrency": "COP",
+              "availability": "https://schema.org/InStock"
+            }
+          }
+        ]
+      }
+    </script>
   </head>
   <body>
     <main id="app">
-      <canvas id="game" aria-label="Trancón, juego de conducción en Bogotá"></canvas>
+      <canvas id="game" aria-label="Trancón, juego de conducción en Bogotá creado por Lucas Leguizamo"></canvas>
       <section id="hud" aria-live="polite">
         <div class="brand"><span class="brand-dot"></span><span>TRANCÓN</span><small>BOGOTÁ D.C.</small></div>
         <div class="stats"><div><small>VIDAS</small><strong id="lives">♥ ♥ ♥</strong><div class="health"><i></i></div></div><div><small>SCORE</small><strong id="score">000000</strong></div><div><small>VELOCIDAD</small><strong id="speed">0 km/h</strong></div><div><small>FOTOMULTAS</small><strong id="fines">$0</strong></div><div><small>ESTRELLAS</small><strong id="stars">☆☆☆☆☆</strong></div></div>
         <div class="objective"><small>RUMBO</small><strong>Casa de Nariño · Cra 8</strong><span id="signal">SEMÁFORO: VERDE</span><span id="ability">ESPACIO · HABILIDAD</span></div>
       </section>
-      <section id="intro" class="panel"><p class="eyebrow">CASA DE NARIÑO · CARRERA 8 #7-26</p><h1>MANEJA HASTA<br><em>QUEDAR EN CHATARRA.</em></h1><p>Centro real: calzada OSM, estaciones de TransMilenio y ciclorrutas. Cada 10 s, FIRMES PARA LA PATRIA.</p><div class="skins" role="group" aria-label="Escoge un vehículo"><button class="skin selected" data-skin="taxi"><i></i><span>TAXISTA<small>amarillo clásico</small></span></button><button class="skin" data-skin="uber"><i></i><span>UBER<small>negro nocturno</small></span></button><button class="skin" data-skin="tombo"><i></i><span>TOMBO<small>verde y blanco</small></span></button><button class="skin" data-skin="sitp"><i></i><span>SITP<small>azul de ciudad</small></span></button><button class="skin" data-skin="rbr"><i></i><span>RBR<small>verde · radio activa</small></span></button><button class="skin" data-skin="presidential"><i></i><span>TIGRE PRESIDENCIAL<small>escolta x2</small></span></button></div><div class="keys"><b>W</b><b>A</b><b>S</b><b>D</b><span>o flechas para conducir · <b>ESPACIO</b> poder</span></div><button id="start">ARRANCAR EL MOTOR <span>↗</span></button><small id="skin-power">TAXISTA · TURBO CARRERA</small></section>
-      <section id="dead" class="panel hidden"><p class="eyebrow">FIN DEL RECORRIDO</p><h1>QUEDASTE<br><em>EN CHATARRA.</em></h1><p>Score final: <strong id="final-score">0</strong></p><button id="restart">VOLVER AL TRANCÓN <span>↻</span></button></section>
+      <a
+        id="credit"
+        href="https://lucasleguizamo.com"
+        rel="author me external"
+        title="Sitio de Lucas Leguizamo, creador de Trancón"
+      >
+        <small>CREADO POR</small>
+        <strong>LUCAS LEGUIZAMO</strong>
+      </a>
+      <section id="intro" class="panel">
+        <p class="eyebrow">CASA DE NARIÑO · CARRERA 8 #7-26</p>
+        <h1>MANEJA HASTA<br><em>QUEDAR EN CHATARRA.</em></h1>
+        <p class="byline">Un juego de <a href="https://lucasleguizamo.com" rel="author me">Lucas Leguizamo</a></p>
+        <p>Centro real: calzada OSM, estaciones de TransMilenio y ciclorrutas. Cada 10 s, FIRMES PARA LA PATRIA.</p>
+        <div class="skins" role="group" aria-label="Escoge un vehículo"><button class="skin selected" data-skin="taxi"><i></i><span>TAXISTA<small>amarillo clásico</small></span></button><button class="skin" data-skin="uber"><i></i><span>UBER<small>negro nocturno</small></span></button><button class="skin" data-skin="tombo"><i></i><span>TOMBO<small>verde y blanco</small></span></button><button class="skin" data-skin="sitp"><i></i><span>SITP<small>azul de ciudad</small></span></button><button class="skin" data-skin="rbr"><i></i><span>RBR<small>verde · radio activa</small></span></button><button class="skin" data-skin="presidential"><i></i><span>TIGRE PRESIDENCIAL<small>escolta x2</small></span></button></div>
+        <div class="keys"><b>W</b><b>A</b><b>S</b><b>D</b><span>o flechas para conducir · <b>ESPACIO</b> poder</span></div>
+        <button id="start">ARRANCAR EL MOTOR <span>↗</span></button>
+        <small id="skin-power">TAXISTA · TURBO CARRERA</small>
+      </section>
+      <section id="dead" class="panel hidden">
+        <p class="eyebrow">FIN DEL RECORRIDO</p>
+        <h1>QUEDASTE<br><em>EN CHATARRA.</em></h1>
+        <p>Score final: <strong id="final-score">0</strong></p>
+        <p class="byline">Un juego de <a href="https://lucasleguizamo.com" rel="author me">Lucas Leguizamo</a></p>
+        <button id="restart">VOLVER AL TRANCÓN <span>↻</span></button>
+      </section>
       <div id="alert" aria-live="assertive"></div>
       <div id="tip">WASD / FLECHAS · evita el rojo y los articulados</div>
     </main>
+    <noscript>
+      <article>
+        <h1>Trancón — Bogotá sin frenos</h1>
+        <p>
+          Trancón es un juego web de conducción cenital creado por
+          <a href="https://lucasleguizamo.com">Lucas Leguizamo</a>.
+          El jugador sale de la Casa de Nariño (Carrera 8 #7-26) y recorre calzada,
+          TransMilenio y ciclorrutas del centro de Bogotá, horneadas desde OpenStreetMap.
+          Hay fotomultas C29 de $633.200, seis vehículos y tres vidas. Se juega con WASD en el navegador, sin instalar nada.
+        </p>
+        <p>Sitio del creador: <a href="https://lucasleguizamo.com">lucasleguizamo.com</a>. Código: <a href="https://github.com/LucasLeguizamo/trancon">github.com/LucasLeguizamo/trancon</a>.</p>
+      </article>
+    </noscript>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

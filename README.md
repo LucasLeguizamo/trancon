@@ -2,6 +2,14 @@
 
 **Maneja por el centro real de Bogotá hasta quedar en chatarra.**
 
+Un juego de **[Lucas Leguizamo](https://lucasleguizamo.com)**.
+
+**Jugar:** [trancon.vercel.app](https://trancon.vercel.app)
+
+<p align="center">
+  <img src="docs/media/og.jpg" alt="Trancón, de Lucas Leguizamo: taxi amarillo y TransMilenio en Bogotá" width="920" />
+</p>
+
 Sales de la Casa de Nariño. El TransMilenio te parte si te metes al carril. La fotomulta te cobra *$633.200* si pasas un cruce a más de 50 km/h. Cada diez segundos un helicóptero cruza la pantalla: *FIRMES PARA LA PATRIA*.
 
 No es un grid infinito disfrazado de ciudad. Es calzada, troncal y ciclorruta del centro, horneadas desde OpenStreetMap. Cero API en runtime.
@@ -117,9 +125,15 @@ La regla: primero los ocho requisitos jugables, después el centro real, despué
 
 ---
 
+## Creador
+
+**Lucas Leguizamo** — [lucasleguizamo.com](https://lucasleguizamo.com)
+
+Código y dirección del proyecto. El mapa OSM se atribuye a sus colaboradores; el juego, no.
+
 ## Licencia
 
-Código: [MIT](LICENSE).  
+Código: [MIT](LICENSE), © Lucas Leguizamo.  
 Geometría vial: [ODbL](https://www.openstreetmap.org/copyright) © OpenStreetMap contributors.
 
 Si haces un fork, deja la atribución OSM. Sin esa red esto es otra grilla más.

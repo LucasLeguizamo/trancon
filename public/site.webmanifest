@@ -1,0 +1,28 @@
+{
+  "name": "Trancón — Bogotá sin frenos",
+  "short_name": "Trancón",
+  "description": "Juego de conducción cenital en el centro real de Bogotá, creado por Lucas Leguizamo.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "fullscreen",
+  "background_color": "#10171b",
+  "theme_color": "#10171b",
+  "lang": "es-CO",
+  "dir": "ltr",
+  "categories": ["games", "entertainment"],
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

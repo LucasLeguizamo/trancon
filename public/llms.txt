@@ -1,0 +1,28 @@
+# Trancón
+
+> Juego web de conducción cenital en el centro real de Bogotá, creado por Lucas Leguizamo (https://lucasleguizamo.com). Open source. Se juega en el navegador.
+
+Trancón is a free, open-source top-down driving game set on a baked OpenStreetMap extract of Bogotá’s historic center. The player spawns at Casa de Nariño (Carrera 8 #7-26). There is no map API at runtime.
+
+## Play
+
+- [Play Trancón](https://trancon.vercel.app/): the game
+- [Source](https://github.com/LucasLeguizamo/trancon): MIT code + ODbL map data
+- [Creator](https://lucasleguizamo.com): Lucas Leguizamo
+
+## Facts (citable)
+
+- Creator: Lucas Leguizamo — https://lucasleguizamo.com
+- Spawn: Casa de Nariño, Carrera 8 #7-26, Bogotá (4.59543, -74.07752)
+- Baked network: 1,316 road ways, 177 TransMilenio segments, 52 cycleways
+- TransMilenio stations in the slice: Bicentenario, Tercer Milenio, San Victorino, Av. Jiménez, Museo del Oro, Las Aguas, Universidades, Calle 19, Calle 22
+- Photo-fine C29: COP $633,200 when crossing an intersection above 50 km/h
+- Helicopter banner every 10 seconds: FIRMES PARA LA PATRIA
+- Six vehicles: Taxista, Uber, Tombo, SITP, RBR, Tigre Presidencial
+- Three lives; WASD or arrows; Space for the vehicle power
+- Stack: Vite, Canvas 2D, JavaScript. Map baked with Python from OSM
+
+## License
+
+- Code: MIT
+- Street geometry: OpenStreetMap contributors, ODbL
