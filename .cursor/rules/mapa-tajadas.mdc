@@ -1,0 +1,14 @@
+---
+description: El mapa real se construye por tajadas. Spawn actual: Casa de Nariño.
+globs: MAPA_BOGOTA.md,docs/agents/MAPA_PLAN.md,docs/agents/mapa_plan.md,src/world/**,tools/build-bogota-map.py
+alwaysApply: false
+---
+
+# Mapa por tajadas
+
+Antes de editar vías reales, lee `docs/agents/mapa_plan.md` o invoca el subagente `mapa-plan`.
+
+- Spawn actual: Casa de Nariño, Carrera 8 #7-26 (`4.59543, -74.07752`).
+- Una tajada por cambio. No calcar Bogotá completa.
+- Si el bbox toca Caracas, Séptima o Jiménez, incluye calzada + TransMilenio + ciclorruta.
+- OSM se hornea a JSON. Cero red en runtime.
